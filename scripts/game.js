@@ -1,0 +1,2 @@
+function gameInitialise(id, authorId) {
+}

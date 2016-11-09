@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Coderace LIVE database</title>
+		<link rel='stylesheet' type='text/css' href='tutorial.css' />
+	</head>
+	
+	<body>
+		<h1>Coderace LIVE database</h1>
+		<hr>
+		<p>
+			Type your query into the top box and click SUBMIT. 
+		</p>
+
+		<hr>
+		
+<!---------------------------------------------------->
+		<div class='qrow'>
+			<div class='questionCol'>
+					<form id='qform' method='POST' action='runQuery.php' target='answerFrame1'>
+						<div>
+							<textarea class='queryInput' name='query' rows='8' cols='300'></textarea>
+						</div>
+						<div class='ralign'>
+							<input type='submit'>
+						</div>
+					</form>
+			</div>
+			<div class='answerCol'>
+				<iframe class='answerFrame' id='answerFrame1' name='answerFrame1'>
+				</iframe>
+			</div>
+		</div>
+	</body>
+</html>

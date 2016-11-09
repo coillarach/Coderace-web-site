@@ -1,0 +1,109 @@
+h1, body, p {
+	font-family: Tahoma, sans-serif;
+}
+
+/* Main layout table 
+ */
+#mainTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Row containing question and answer fields
+ */
+ .qrow {
+	height: 220px;
+	width: 826px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eeeeee;
+ }
+
+/* Question column
+ */
+ .questionCol {
+	float: left;
+ }
+ 
+ /* Question text
+  */
+  .question {
+	position: relative;
+	margin-left: 5px;
+  }
+ 
+ /* Query text area
+  */
+.queryInput {
+	width: 300px;
+	height: 150px;
+	border: 3px solid #cccccc;
+	margin: 5px;
+	padding: 10px;
+	font-family: Tahoma, sans-serif;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Right-aligned div
+ */
+.ralign {
+	position: relative;
+	float: right;
+ }
+
+/* Response column
+ */
+.answerCol {
+	position: relative;
+	display: inline;
+}
+
+/* Response iframe
+ */
+.answerFrame {
+	width: 480px;
+	height: 126px;
+	border: 3px solid #cccccc;
+	padding: 10px;
+	margin: 5px;
+	font-family: Tahoma, sans-serif;
+	background-color: white;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Table of results
+ */
+ .answerTable {
+	border-collapse: collapse;
+ }
+ .answerTable_error {
+	border-collapse: collapse;
+	border: solid 1px #666;
+	background-color: yellow;
+ }
+ 
+ /* Correct message
+  */
+.correct {
+	border-style: none;
+	color: green;
+}
+ 
+ /* Table header
+  */
+  .colHead {
+	background-color: #666;
+	color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+  }
+  
+/* Table values
+ */
+.colValue {
+	border: solid 1px #666;
+	padding-left: 4px;
+	padding-right: 4px;
+}

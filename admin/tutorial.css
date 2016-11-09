@@ -1,0 +1,106 @@
+h1, body, p {
+	font-family: Tahoma, sans-serif;
+	color: red;
+}
+
+/* Main layout table 
+ */
+#mainTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#login {
+	position: relative;
+	width: 300px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px red;
+}
+
+/* Row containing question and answer fields
+ */
+ .qrow {
+	height: 80%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eeeeee;
+ }
+
+/* Question column
+ */
+ .questionCol {
+ }
+ 
+ /* Question text
+  */
+  .question {
+	position: relative;
+	margin-left: 5px;
+  }
+ 
+ /* Query text area
+  */
+.queryInput {
+	position: relative;
+	width: 98%;
+	height: 150px;
+	border: 3px solid #cccccc;
+	margin: 5px;
+	padding: 10px;
+	font-family: Tahoma, sans-serif;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Right-aligned div
+ */
+.ralign {
+	position: relative;
+	float: right;
+ }
+
+/* Response column
+ */
+.answerCol {
+	position: relative;
+}
+
+/* Response iframe
+ */
+.answerFrame {
+	width: 96%;
+	height: 50%;
+	border: 3px solid #cccccc;
+	padding: 10px;
+	margin: 5px;
+	font-family: Tahoma, sans-serif;
+	background-color: white;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Table of results
+ */
+ .answerTable {
+	border-collapse: collapse;
+ }
+ 
+ /* Table header
+  */
+  .colHead {
+	background-color: #666;
+	color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+  }
+  
+/* Table values
+ */
+.colValue {
+	border: solid 1px #666;
+	padding-left: 4px;
+	padding-right: 4px;
+}

@@ -1,0 +1,140 @@
+html { height: 100% }
+
+body {
+      height: 100%; 
+      margin: 0; 
+      padding: 0;
+	background-color: black;
+	font: 9pt Arial,sans-serif;
+	color: navy;
+}
+
+#map_canvas {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#title_background {
+	top: 5px;
+	left: 5px;
+	right: 260px;
+	height: 4em;
+	background-color: white;
+	z-index: 2;
+}
+
+#title	{
+	position: absolute;
+	width: 40em;
+	font: 18pt Arial, sans-serif;
+	font-weight: bold;
+	z-index: 3;
+	padding-top: 5px;
+	margin-left: 20px;
+}
+
+#gameSummary_background	{
+	height: 350px;
+	width: 250px;
+	top: 5px;
+	right: 0px;
+	margin-right: 10px;
+	background-color: white;
+	z-index: 2;
+}
+
+#gameSummary	{
+	position: absolute;
+	width: 220px;
+	top: 10px;
+	right: 20px;
+	font: 16pt Arial, sans-serif;
+	z-index: 3;
+}
+
+#timer	{
+	position: absolute;
+	width: 250px;
+	top: 15px;
+	left: 380px;
+	font: 16pt Arial, sans-serif;
+	z-index: 3;
+}
+
+#toggle	{
+	position: absolute;
+	width: 160px;
+	top: 15px;
+	left: 600px;
+	font: 16pt Arial, sans-serif;
+	z-index: 3;
+}
+
+#alert_background	{
+	height: 280px;
+	width: 250px;
+	top: 360px;
+	right: 0px;
+	margin-right: 10px;
+	background-color: white;
+	z-index: 2;
+}
+
+#alertDiv	{
+	position: absolute;
+	width: 220px;
+	top: 360px;
+	right: 20px;
+	font: 16pt Arial, sans-serif;
+	z-index: 3;
+}
+
+#markerTable {
+	padding: 4px;
+}
+
+#messageBackground {
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #333333;
+	z-index: 9;
+}
+#message {
+	position: absolute;
+    	width: 98%;
+	text-align: center;
+	font: 32pt Arial, sans-serif;
+	color: #eeeeee;
+	visibility: visible;
+	z-index: 10;
+}
+
+#bubble {
+	font: 12pt Arial,sans-serif;
+	font-weight: bold;
+	color: navy;
+	margin-top: 10px;
+}
+
+.controlLinkCell {
+	width: 100px;
+	text-align: right;
+}
+
+.overlay {
+	position: absolute;
+	/* for IE */
+	filter:alpha(opacity=75);
+	/* CSS3 standard */
+	opacity:0.75;
+	visibility: visible;
+}
+
+.floater {
+    height: 50%;
+    width: 100%;
+    margin-bottom: -50px;
+}

@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>Mondial SQL</title>
+		<link rel='stylesheet' type='text/css' href='mondial.css' />
+	</head>
+	
+	<body>
+		<h1>Simple SELECT statements</h1>
+		<hr>
+		<p>
+			Find the answer to these questions by typing a SELECT statement into the box on the left. 
+			Click SUBMIT and the results will appear in the box on the right. 
+		</p>
+		<p>
+			You will be using these two tables:
+			<ul>
+				<li>
+					COUNTRY ( name, code, capital, province, area, population )
+				</li>
+				<li>
+					CITY ( name, country, province, population, longitude, latitude )
+				</li>
+			</ul>
+		</p>
+		<hr>
+		
+<!---------------------------------------------------->
+		<div class='qrow'>
+			<div class='question'>
+				1. Show all countries smaller than 50 square kilometres from the COUNTRY table
+			</div>
+			<div class='questionCol'>
+					<form id='qform' method='POST' action='runQuery.php' target='answerFrame1'>
+						<div>
+							<textarea class='queryInput' name='query' rows='8' cols='50'></textarea>
+							<input type='hidden' name='rows' value='9'/>
+							<input type='hidden' name='cols' value='0'/>
+						</div>
+						<div class='ralign'>
+							<input type='submit'>
+						</div>
+					</form>
+			</div>
+			<div class='answerCol'>
+				<iframe class='answerFrame' id='answerFrame1' name='answerFrame1'>
+				</iframe>
+			</div>
+		</div>
+<!---------------------------------------------------->
+		<div class='qrow'>
+			<div class='question'>
+				2. Show the country code for Greece from the COUNTRY table
+			</div>
+			<div class='questionCol'>
+					<form id='qform' method='POST' action='runQuery.php' target='answerFrame2'>
+						<div>
+							<textarea class='queryInput' name='query' rows='8' cols='50'></textarea>
+							<input type='hidden' name='rows' value='1'/>
+							<input type='hidden' name='cols' value='1'/>
+						</div>
+						<div class='ralign'>
+							<input type='submit'>
+						</div>
+					</form>
+			</div>
+			<div class='answerCol'>
+				<iframe class='answerFrame' id='answerFrame2' name='answerFrame2'>
+				</iframe>
+			</div>
+		</div>
+<!---------------------------------------------------->
+		<div class='qrow'>
+			<div class='question'>
+				3. Use the country code from the last question to find the names of all the cities in Greece from the CITY table
+			</div>
+			<div class='questionCol'>
+					<form id='qform' method='POST' action='runQuery.php' target='answerFrame3'>
+						<div>
+							<textarea class='queryInput' name='query' rows='8' cols='50'></textarea>
+							<input type='hidden' name='rows' value='16'/>
+							<input type='hidden' name='cols' value='1'/>
+						</div>
+						<div class='ralign'>
+							<input type='submit'>
+						</div>
+					</form>
+			</div>
+			<div class='answerCol'>
+				<iframe class='answerFrame' id='answerFrame3' name='answerFrame3'>
+				</iframe>
+			</div>
+		</div>
+	</body>
+</html>
